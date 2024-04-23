@@ -25,6 +25,7 @@ import lombok.RequiredArgsConstructor;
 public class EventController {
 	
 	private final EventService eventService;
+
 	private final AttendeeService attendeeService;
 	
 	@GetMapping("/{id}")
